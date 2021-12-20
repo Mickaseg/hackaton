@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #303132;
+    color: #707678;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+border: 2px solid #6CE7D0;
+}
+
+.listMenu {
+    border: 4px solid #6CE7D0;
+    display: flex;
+}
+
+a {
+    text-decoration : none;
+    list-style : none;
+    color : antiquewhite;
+    font-weight: bold;
+}
+
+ul li {
+    padding: 0;
+    list-style: none;
+    text-align : left;
+
+}
