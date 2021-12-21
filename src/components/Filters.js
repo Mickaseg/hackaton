@@ -65,16 +65,15 @@ const Filter = () => {
 				</select>
 
 				<select name="haircolor">
-					<option value=''></option>
-					<option value=''></option>
-					<option value=''></option>
-					<option value=''></option>
-					<option value=''></option>
-					<option value=''></option>
-					<option value=''></option>
-					<option value=''></option>
-					<option value=''></option>
-					<option value=''></option>
+					<option value='blond'>Blond</option>
+					<option value='brown, later graying'>Brown later graying'</option>
+					<option value='brown, later gray'>Brown later gray</option>
+					<option value='brown'>Brown</option>
+					<option value='black'>Black</option>
+					<option value='light brown, later white'>Light brown, later white</option>
+					<option value='auburn, later gray'>Auburn, later gray</option>
+					<option value='white'>White</option>
+					<option value='auburn'>Auburn</option>
 				</select>
 				<select name="eyecolor">
 					<option value='blue'>Blue</option>
