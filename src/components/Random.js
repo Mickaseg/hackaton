@@ -1,16 +1,16 @@
-import { useState, useEffect } from "react"
-import Card from "../components/Card"
-import Random from "../components/Random"
+import {useState, useEffect} from "react"
 
-import "./Shop.css"
-const Characters = () => {
+import Card from "./Card"
+import "./Random.css"
+
+const Random = () => {
 	const [characters, setCharacters] = useState([])
 	const [isLoading, setIsLoading] = useState(false)
-	// const Random = () => {
-	// 	const min = Math.ceil(0);
-	// 	const max = Math.floor(87);
-	// 	return  Math.floor(Math.random() * (max - min)) + min;
-	// }
+	const alea = () => {
+		const min = Math.ceil(0);
+		const max = Math.floor(87);
+		return  Math.floor(Math.alea() * (max - min)) + min;
+	}
 	useEffect(() => {
 		const getData = () => {
 			fetch("https://miadil.github.io/starwars-api/api/all.json")
@@ -25,34 +25,33 @@ const Characters = () => {
 	}, [])
 
 	return (
-        <div>
-			<Random />
-		<div>
-			
 			<div className="GaleryCharacters">
+                <button onClick={Random}>let destiny make for you</button>
 				{isLoading ? (
 					characters.map((character) => (
 						<Card
-							key={character.id}
+							key={alea}
 							id={character.id}
 							name={character.name}
-							image={character.image}
-							
+							image={character.image}	
 						/>
 					))
 				) : (
 					<div>...Loading</div>
 				)}
 			</div>
-		</div>
-	
-
-
-    
-        </div>
-	
     )
-
 }
 
-export default Characters
+
+
+//     return (
+//         <div className="">
+//             <h2>{item}</h2>
+//             <img src={image} alt="destiny"/>
+//             
+//         </div>
+//     )
+// }
+
+export default Random

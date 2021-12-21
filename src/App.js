@@ -7,7 +7,7 @@ import Choice from "./screen/Choice";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./screen/Home";
-import logo from "./logo.svg";
+
 
 import './App.css';
 
