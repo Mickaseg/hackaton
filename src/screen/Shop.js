@@ -6,11 +6,7 @@ import "./Shop.css"
 const Characters = () => {
 	const [characters, setCharacters] = useState([])
 	const [isLoading, setIsLoading] = useState(false)
-	// const Random = () => {
-	// 	const min = Math.ceil(0);
-	// 	const max = Math.floor(87);
-	// 	return  Math.floor(Math.random() * (max - min)) + min;
-	// }
+	
 	useEffect(() => {
 		const getData = () => {
 			fetch("https://miadil.github.io/starwars-api/api/all.json")
@@ -25,9 +21,10 @@ const Characters = () => {
 	}, [])
 
 	return (
+		<div>
         <div>
 			<Random />
-		<div>
+		</div>
 			
 			<div className="GaleryCharacters">
 				{isLoading ? (
@@ -45,12 +42,6 @@ const Characters = () => {
 				)}
 			</div>
 		</div>
-	
-
-
-    
-        </div>
-	
     )
 
 }
