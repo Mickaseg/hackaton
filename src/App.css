@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat+Alternates&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:wght@300&family=Train+One&display=swap');
+
 
 :root {
 	/* couleur  */
@@ -7,7 +8,7 @@
 	--third-color: #FF00F0;
 	--four-color: #00FAFA; 
 	/* fonts */
-	--font-title: 'Monoton', cursive;
+	--font-title: 'Train One', cursive;
 	--font-nav: 'Montserrat Alternates', sans-serif;
 	--font-content: 'Montserrat', sans-serif;
 }

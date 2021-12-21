@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
-import Card from "../components/Card";
-import Filter from "../components/Filters";
+import { useState, useEffect } from "react"
+import Card from "../components/Card"
+import Random from "../components/Random"
 
 import "./Shop.css";
 const Characters = () => {

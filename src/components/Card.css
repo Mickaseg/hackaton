@@ -9,6 +9,10 @@
 	box-shadow: 1px 1px 1px 1px grey;
 }
 
+.CardImg:hover{
+	display:none;
+	transform: rotate(2turn);	
+}
 .Card > p {
 	
 	background-color: #660075;

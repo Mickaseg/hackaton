@@ -7,19 +7,20 @@
     align-items : center;
     /* flex-direction: row; */
     justify-content: space-between;
-    height: 50px;
+    height: 125px;
     padding-left: 20px;
     font-family:  'Montserrat Alternates', sans-serif;
 }
 
 
 
-a {
+.navbar a  {
     text-decoration : none;
     list-style : none;
-    color : antiquewhite;
+    color :white;
+    text-shadow: #FF00F0  1px 0 10px;
     font-weight: bold;
-    
+    font-size: 1.3rem;
 
 }
 
@@ -40,5 +41,5 @@ ul {
 } 
 
 .nav-logo {
-    width: 40px;
+    width: 100px;
 }
