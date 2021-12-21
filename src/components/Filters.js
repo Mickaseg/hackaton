@@ -1,5 +1,13 @@
+import {useState} from "react";
+
 const Filter = () => {
+<<<<<<< HEAD
     const handle
+=======
+	const [choice, setChoice] = useState(){
+
+	}
+>>>>>>> 116817f894681d5f398ce43cf16cfaeb4649af02
     return(
         <div>
 <h1> Make your Choice </h1>
