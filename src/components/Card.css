@@ -1,4 +1,24 @@
-.CardImg {
+.Card{
+	display: flex;
+	flex-direction: column;
 	width: 250px;
 	height: 350px;
+	border: solid 2px white;
+	border-radius: 5px;
+	margin:15px;
+	box-shadow: 1px 1px 1px 1px grey;
+}
+
+.Card:hover{
+	transition: scale(2);	
+}
+.Card > p {
+	
+	background-color: #660075;
+	color: 'Monoton', cursive;
+	align-items: center;
+}
+.CardImg {
+	height: 100% ;
+	width: 100% ;
 }
