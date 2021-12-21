@@ -44,9 +44,24 @@ const Filter = () => {
                 <option>Cerea</option>
                 <option>Glee Anselm</option>
                 <option>Nar Shaddaa</option>
-
-            
-
+                <option value='iktotch'>Iktotch</option>
+                <option value='quermia'>Quermia</option>
+                <option value='dorin'>Dorin</option>
+                <option value='champala'>Champala</option>
+                <option value='geonosis'>Geonosis</option>
+                <option value='mirial'>Mirial</option>
+                <option value='serenno'>Serenno</option>
+                <option value='concord dawn'>Concord Dawn</option>
+                <option value='zolan'>Zolan</option>
+                <option value='ojom'>Ojom</option>
+                <option value='skako'>Skako</option>
+                <option value='scipio'>Scipio</option>
+                <option value='shili'>Shili</option>
+                <option value='kalee'>Kalee</option>
+                <option value='utapau'>Utapau</option>
+                <option value='yavin 4'>Yavin 4</option>
+                <option value='jakku'>Jakku</option>
+                <option value='parnassos'>Parnassos</option>
 				</select>
 
 				<select name="haircolor">
