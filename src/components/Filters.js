@@ -77,16 +77,16 @@ const Filter = () => {
 					<option value=''></option>
 				</select>
 				<select name="eyecolor">
-					<option value=''></option>
-					<option value=''></option>
-					<option value=''></option>
-					<option value=''></option>
-					<option value=''></option>
-					<option value=''></option>
-					<option value=''></option>
-					<option value=''></option>
-					<option value=''></option>
-					<option value=''></option>
+					<option value='blue'>Blue</option>
+					<option value='yellow'>Yellow</option>
+					<option value='red'>Red</option>
+					<option value='brown'>Brown</option>
+					<option value='hazel'>Hazel</option>
+					<option value='gray-blue'>Gray-blue</option>
+					<option value='purple'>Purple</option>
+					<option value='orange'>Orange</option>
+					<option value='green-gold'>Green Gold</option>
+					<option value='blue, yellow (dark side)'>Blue Yellow</option>
 				</select>
                 
          </div>
