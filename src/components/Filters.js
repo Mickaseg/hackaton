@@ -1,4 +1,9 @@
+import {useState} from "react";
+
 const Filter = () => {
+	const [choice, setChoice] = useState(){
+
+	}
     return(
         <div>
 			<h1> Make your Choice </h1>
