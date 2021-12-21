@@ -9,10 +9,11 @@ const Filter = () => {
 			<h1> Make your Choice </h1>
     
 				<select name="gender">
-					<option>Male</option>
-					<option>Female</option>
-					<option>Droid</option>
+					<option value='male'>Male</option>
+					<option value='female'>Female</option>
+					<option value='droidgit stazt'>Droid</option>
 				</select>
+
 
 				<select name="homeworld">
 					<option value='tatooine'>Tatooine</option>
