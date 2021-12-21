@@ -9,7 +9,7 @@
 	box-shadow: 1px 1px 1px 1px grey;
 }
 
-.Card:hover{
+.CardImg:hover{
 	transform: rotate(2turn);	
 }
 .Card > p {
