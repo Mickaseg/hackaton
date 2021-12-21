@@ -11,48 +11,68 @@ const Filter = () => {
 				
 
 				<select name="homeworld">
-				<option>Tatooine</option>
-				<option>Naboo</option>
-				<option>Alderaan</option>
-				<option>Stewjon</option>
-				<option>Eriadu</option>
-				<option>Kashyyyk</option>
-				<option>Corellia</option>
-				<option>Rodia</option>
-				<option>Bestine</option>
-				<option>Naboo</option>
-				<option>Kamino</option>
-				<option>Trandosha</option>
-				<option>Socorro</option>
-				<option>Bespin</option>
-				<option>Mon Cala</option>
-				<option>Chandrila</option>
-				<option>Endor</option>
-				<option>Sullust</option>
-				<option>Coruscant</option>
-				<option>Neimoidia</option>
-				<option>Coruscant</option>
-				<option>Toydaria</option>
-				<option>Malastare</option>
-				<option>Dathomir</option>
-				<option>Ryloth</option>
-                <option>Aleen</option>
-                <option>Vulpter</option>
-                <option>Troiken</option>
-                <option>Tund</option>
-                <option>Haruun Kai</option>
-                <option>Cerea</option>
-                <option>Glee Anselm</option>
-                <option>Nar Shaddaa</option>
+				<option value='tatooine'>Tatooine</option>
+				<option value='naboo'>Naboo</option>
+				<option value='alderaan'>Alderaan</option>
+				<option value='stewjon'>Stewjon</option>
+				<option value='eriadu'>Eriadu</option>
+				<option value='kashyyyk'>Kashyyyk</option>
+				<option value='corellia'>Corellia</option>
+				<option value ='rodia'>Rodia</option>
+				<option value='bestine'>Bestine</option>
+				<option value='naboo'>Naboo</option>
+				<option value='kamino'>Kamino</option>
+				<option value='trandosha'>Trandosha</option>
+				<option value='socorro'>Socorro</option>
+				<option value='bespin'>Bespin</option>
+				<option value='cala'>Mon Cala</option>
+				<option value='chandrila'>Chandrila</option>
+				<option value='endor'>Endor</option>
+				<option value='sullust'>Sullust</option>
+				<option value='coruscant'>Coruscant</option>
+				<option value='neimoidia'>Neimoidia</option>
+				<option value='coruscant'>Coruscant</option>
+				<option value='toydaria'>Toydaria</option>
+				<option value='malastare'>Malastare</option>
+				<option value='dathomir'>Dathomir</option>
+				<option value='ryloth'>Ryloth</option>
+                <option value='aleen'>Aleen</option>
+                <option value='vulpter'>Vulpter</option>
+                <option value='troiken'>Troiken</option>
+                <option value='tund'>Tund</option>
+                <option value='haruun'>Haruun Kai</option>
+                <option value='cerea'>Cerea</option>
+                <option value='glee anselm'>Glee Anselm</option>
+                <option value='nar shaddaa'>Nar Shaddaa</option>
 
             
 
 				</select>
 
 				<select name="haircolor">
+					<option value=''></option>
+					<option value=''></option>
+					<option value=''></option>
+					<option value=''></option>
+					<option value=''></option>
+					<option value=''></option>
+					<option value=''></option>
+					<option value=''></option>
+					<option value=''></option>
+					<option value=''></option>
 				</select>
 				<select name="eyecolor">
-				</select> 
+					<option value=''></option>
+					<option value=''></option>
+					<option value=''></option>
+					<option value=''></option>
+					<option value=''></option>
+					<option value=''></option>
+					<option value=''></option>
+					<option value=''></option>
+					<option value=''></option>
+					<option value=''></option>
+				</select>
                 
          </div>
     )
