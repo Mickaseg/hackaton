@@ -31,8 +31,9 @@ const Characters = () => {
 
   return (
     <div>
+		
       <h1> Make your Choice </h1>
-
+	  <div class='filters'>
       <select name="gender" onChange={(e) => setChoice(e.target.value)}>
         <option value="default">Gender</option>
         <option value="male"> Male</option>
@@ -150,7 +151,7 @@ const Characters = () => {
         <option value="green-gold">Green Gold</option>
         <option value="blue, yellow (dark side)">Blue Yellow</option>
       </select>
-
+	  </div>
       <div>
         
         <div className="GaleryCharacters">

@@ -9,9 +9,6 @@
 	box-shadow: 1px 1px 1px 1px grey;
 }
 
-.Card:hover{
-	transition: scale(2);	
-}
 .Card > p {
 	
 	background-color: #660075;

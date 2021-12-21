@@ -3,3 +3,13 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.filters {
+    display: flex;
+    
+    
+}
+h1{
+    text-align: center;
+    
+}
