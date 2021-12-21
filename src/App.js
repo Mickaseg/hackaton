@@ -1,10 +1,13 @@
 import { Routes, Route } from "react-router-dom"
 
+
+import Welcome from "./screen/Welcome";
+import Characters from "./screen/Shop";
+import Choice from "./screen/Choice";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./screen/Home";
-import Page2 from "./screen/Page2";
-import Page3 from "./screen/Page3";
-import logo from './logo.svg';
+import logo from "./logo.svg";
 
 import './App.css';
 
@@ -13,10 +16,12 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-	      <Route path="/" element={<Home />} />
-      	<Route path="/page2" element={<Page2 />} />
-        <Route path="/page3" element={<Page3 />} />
-      </Routes>    
+      	<Route path="/Welcome" element={<Welcome />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/Shop" element={<Characters />} />
+        <Route path="/Choice" element={<Choice />} />
+      </Routes>   
+      <Footer />
     </div>
   );
 }
