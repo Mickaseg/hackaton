@@ -1,12 +1,12 @@
 .navbar {
-    background-color: rgb(102,0,117, 0.5) ;
+    background-color: rgba(101, 0, 117, 0.438) ;
     color: #00FAFA;
     text-decoration: none;
     text-align: center;
     display: flex;
     align-items : center;
     /* flex-direction: row; */
-    justify-content: flex-end;
+    justify-content: space-between;
     height: 60px;
     padding-left: 20px;
     font-family:  'Train One', cursive;
@@ -42,5 +42,5 @@ ul {
 } 
 
 .nav-logo {
-    width: 100px;
+    width: 50px;
 }

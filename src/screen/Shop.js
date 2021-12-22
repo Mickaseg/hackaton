@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import Card from "../components/Card"
+import logo from "../Assets/new_logo.png";
 import Random from "../components/Random"
 
 import "./Shop.css";
@@ -49,6 +50,8 @@ const Characters = () => {
     <div class='body-shop'>
       {/* {console.log('-----------',poulet)} */}
       <div className="filtersSelection">
+    <div className= "shopshop">
+      <img src={logo} alt="logo" className="logo logoshop" />
       <h1> Make your Choice </h1>
 	  <div class='filters'>
 		  
@@ -189,6 +192,7 @@ const Characters = () => {
       </div>
       <Random />
       
+    </div>
     </div>
     
   );

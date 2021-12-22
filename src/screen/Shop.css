@@ -41,3 +41,22 @@ select {
 .GaleryCharacters.random {
     margin-top: 200px;
 }
+
+
+.shopshop > .logo {
+    width: 50px;
+    position : absolute; 
+    top: 5px; 
+    right: 80px;
+    animation: flip 10s ease 0s infinite normal forwards;
+}
+
+@keyframes flip{
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
