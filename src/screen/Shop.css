@@ -12,12 +12,12 @@
     display: flex;
     justify-content:center;
     padding: 20px;
-    background-color: tomato;
+    
 }
 
 h1{
     text-align: center;
-    background-color: tomato;
+    
     font-family: 'Train One', cursive;
     color: pink;
 }

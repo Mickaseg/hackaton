@@ -5,12 +5,13 @@ import Random from "../components/Random"
 import "./Shop.css";
 const Characters = () => {
   const [characters, setCharacters] = useState();
+  const [poulet, setPoulet] =useState([])
   const [isLoading, setIsLoading] = useState(false);
   const [choice, setChoice] = useState("default");
   const [choiceHomeworld, setChoiceHomeworld] = useState();
   const [choiceSpecies, setChoiceSpecies] = useState();
   const [choiceEyeColor, setChoiceEyeColor] = useState();
-
+  const [choiceEyeColors, setChoiceEyeColors] = useState();
   useEffect(() => {
     const getData = () => {
       fetch("https://miadil.github.io/starwars-api/api/all.json")
@@ -18,24 +19,39 @@ const Characters = () => {
         .then((res) => {
           // console.log(res)
           setCharacters(res);
+          setPoulet(res)
           setIsLoading(true);
         });
     };
     getData();
   }, []);
 
-  console.log(choice);
-  console.log(choiceHomeworld);
-  console.log(choiceSpecies);
-  console.log(choiceEyeColor);
+  // console.log('gender',choice);
+  // console.log('home',choiceHomeworld);
+  // console.log('spe',choiceSpecies);
+  // console.log('eye',choiceEyeColor);
+  useEffect(() => {
+        
+    const getDataFilter = () => {
+      console.log(choiceEyeColors)
+      const resultFilter = isLoading ? characters.filter((element) => element.gender === choice)
+        .filter((element) => element.homeworld === choiceHomeworld)
+        .filter((element) => element.eyeColor === choiceEyeColor) : <div>Loading</div>
+      setPoulet(resultFilter)
+    }
+    getDataFilter()
+  }, [choice, choiceEyeColor, choiceHomeworld])
+  
+  
 
+  
   return (
     <div class='body-shop'>
-		
+      {/* {console.log('-----------',poulet)} */}
       <h1> Make your Choice </h1>
 	  <div class='filters'>
 		  
-      <select name="gender" onChange={(e) => setChoice(e.target.value)}>
+      <select name="gender" onChange={(e) => handelChange(e.target.value, "gender" )}>
         <option value="default">	&#9893;Gender</option>
         <option value="male"> &#9794;Male</option>
         <option value="female">&#9792;Female</option>
@@ -157,12 +173,7 @@ const Characters = () => {
         
         <div className="GaleryCharacters">
           {isLoading ? (
-            characters
-              .filter((element) => element.gender === choice)
-              .filter((element) => element.homeworld === choiceHomeworld)
-              .filter((element) => element.eyeColor=== choiceEyeColor)
-			  
-              .map((character) => (
+              poulet.map((character) => (
                 <Card
                   key={character.id}
                   id={character.id}
