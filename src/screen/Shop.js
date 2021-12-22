@@ -52,7 +52,7 @@ const Characters = () => {
       <div className="filtersSelection">
     <div className= "shopshop">
       <img src={logo} alt="logo" className="logo logoshop" />
-      <h1> Make your Choice </h1>
+      <h1>Choose your perfect match</h1>
 	  <div class='filters'>
 		  
       <select name="gender" onChange={(e) => setChoice(e.target.value, "gender" )}>

@@ -16,6 +16,7 @@ font-family:'Train One', cursive;
 text-shadow:  #FF00F0 1px 0 10px;
 text-align: center; 
 animation: title 50ms ease 0s infinite normal forwards;
+font-size: 4rem;
 }
 
 @keyframes title {

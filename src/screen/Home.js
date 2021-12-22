@@ -12,6 +12,10 @@ const Home =() => {
             <Square /> 
             <img src={go} alt="go" className="imggo"/>
             <Square2 />
+            <div>
+            
+            </div>
+            
 
        
         </div>

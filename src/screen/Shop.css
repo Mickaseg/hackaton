@@ -20,7 +20,7 @@
     display: flex;
     justify-content:center;
     padding: 20px;
-    
+    flex-wrap: wrap;
 }
 
 h1{
@@ -44,10 +44,10 @@ select {
 
 
 .shopshop > .logo {
-    width: 50px;
+    width: 70px;
     position : absolute; 
     top: 5px; 
-    right: 80px;
+    left: 80px;
     animation: flip 10s ease 0s infinite normal forwards;
 }
 
@@ -60,3 +60,4 @@ select {
       transform: rotate(360deg);
     }
   }
+ 

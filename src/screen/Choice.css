@@ -1,0 +1,17 @@
+.choicechoice > .logo {
+    width: 70px;
+    position : absolute; 
+    top: 5px; 
+    left: 80px;
+    animation: flip 10s ease 0s infinite normal forwards;
+}
+
+@keyframes flip{
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }

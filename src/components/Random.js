@@ -21,11 +21,11 @@ const Random = () => {
 	}, [])
 
 	return (
-			<div className="GaleryCharacters random">
+			<div className="random">
 				<h2>Let destiny choose for you</h2>
 				<div><Arrow /></div>
                 <button onClick={()=> setNumber(Math.floor(Math.random() * 87))}>Click Here!</button>
-				<div>
+				<div className="randomCard">
 					{ characters !== null && 
 						<Card
 							key={number}
