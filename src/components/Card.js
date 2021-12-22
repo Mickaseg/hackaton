@@ -4,9 +4,9 @@ import "./Card.css"
 const Card = ({ name, image, id }) => {
 	const idCharacter = `/characters/${id}`
 	return (
-		<div className="Card"key={id}>
+		<div className="Card" key={id}>
 			<Link to={idCharacter} >
-			<p>{name}</p>
+			<p className="CardTitle">{name}</p>
 			<img className="CardImg" src={image} alt={name} />
 			</Link>
 		</div>

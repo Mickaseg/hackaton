@@ -48,6 +48,7 @@ const Characters = () => {
   return (
     <div class='body-shop'>
       {/* {console.log('-----------',poulet)} */}
+      <div className="filtersSelection">
       <h1> Make your Choice </h1>
 	  <div class='filters'>
 		  
@@ -170,7 +171,7 @@ const Characters = () => {
       </select>
 	  </div>
       <div>
-        
+      </div>
         <div className="GaleryCharacters">
           {isLoading ? (
               poulet.map((character) => (

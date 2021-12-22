@@ -8,21 +8,20 @@
 	margin-left:60px;
 	margin-bottom: 30px;
 	box-shadow: 1px 1px 1px 1px grey;
+	background-color: #660075;
 }
 
 .Card:hover{
 	transform: scale(1.1);
 	transition: all 1s ease-out;	
 }
-.Card > p {
-	
-	background-color: #660075;
-	color: 'Monoton', cursive;
+.CardTitle{
+    color: 'Monoton', cursive;
 	text-align: center;
-	
 }
 .CardImg {
-	
+	object-fit: contain;
+	max-height: 340px;
 	height: 100% ;
 	width: 100% ;
 }
