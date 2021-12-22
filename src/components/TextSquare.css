@@ -4,10 +4,10 @@
     margin-top: 0; 
     color: white; 
     font-family: 'Montserrat', sans-serif;
-    text-align: justify;
+    
     padding: 30px; 
     display: flex;
-    align-items: flex-start;
+    
     height: auto;
 }
 

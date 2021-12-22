@@ -2,7 +2,11 @@ import "./TextSquare.css"
 
 const TextSquare =() => {
     return  <div className="square squareText"> 
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
+            <p>Tu as l'âme d'un explorateur, tu veux visiter les trous noirs les plus profonds de la galaxie, ou tu as juste besoin de décharger ta grosse cargaison ?
+                Ou tu préfères jouer du sabre laser, survoler d'énormes dunes bien sableuses.
+                Comme dirais notre plus gros client: "Sabre à ton foureau tu trouveras !"
+                Fais juste attention de ne pas déraper de ton landspeeder !
+            </p>
             </div>
     
     }
