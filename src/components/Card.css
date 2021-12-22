@@ -5,21 +5,24 @@
 	height: 350px;
 	border: solid 2px white;
 	border-radius: 5px;
-	margin:15px;
+	margin-left:60px;
 	box-shadow: 1px 1px 1px 1px grey;
 }
 
-.CardImg:hover{
-	display:none;
-	transform: rotate(2turn);	
+.Card:hover{
+	transform: scale(1.1);
+	transition: all 1s ease-out;	
 }
 .Card > p {
 	
 	background-color: #660075;
 	color: 'Monoton', cursive;
-	align-items: center;
+	text-align: center;
+	
 }
 .CardImg {
+	
 	height: 100% ;
 	width: 100% ;
 }
+

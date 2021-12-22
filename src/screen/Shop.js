@@ -30,14 +30,15 @@ const Characters = () => {
   console.log(choiceEyeColor);
 
   return (
-    <div>
+    <div class='body-shop'>
 		
       <h1> Make your Choice </h1>
 	  <div class='filters'>
+		  
       <select name="gender" onChange={(e) => setChoice(e.target.value)}>
-        <option value="default">Gender</option>
-        <option value="male"> Male</option>
-        <option value="female">Female</option>
+        <option value="default">	&#9893;Gender</option>
+        <option value="male"> &#9794;Male</option>
+        <option value="female">&#9792;Female</option>
       </select>
       <select
         name="homeworld"

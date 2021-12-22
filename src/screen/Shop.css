@@ -1,15 +1,32 @@
+
 .GaleryCharacters{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 500px;
 }
 
 .filters {
     display: flex;
-    
-    
+    justify-content:center;
+    padding: 20px;
+    background-color: tomato;
 }
+
 h1{
     text-align: center;
-    
+    background-color: tomato;
+    font-family: 'Train One', cursive;
+    color: pink;
 }
+select {
+	text-align: center;
+	border-radius: 5px;
+	background-color: violet;
+    margin-left: 10px;
+    font-size: 20px;
+    letter-spacing: 5px;   
+}
+ 
