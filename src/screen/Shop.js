@@ -173,9 +173,10 @@ const Characters = () => {
           )}
         </div>
       </div>
-
+      <Random />
       
     </div>
+    
   );
 };
 
