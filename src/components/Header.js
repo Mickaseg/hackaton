@@ -7,16 +7,16 @@ const Header = () => {
     return(
     <div className="navbar">
 
-            <NavLink to="/" className="navbar-logo">
+            {/* <NavLink to="/" className="navbar-logo">
               <img src={logo} alt="logo" className="nav-logo" />
-            </NavLink>
+            </NavLink> */}
 
 
         <ul>
             {/* J'ai ajoute welcome ici pour acceder a la page*/}
-            <NavLink to="/Welcome" className="">
+            {/* <NavLink to="/Welcome" className="">
                <li className="navbar-welcome">*</li>  
-            </NavLink>
+            </NavLink> */}
             <NavLink to="/" className="">
                <li className="navbar-home">Home</li> 
             </NavLink>

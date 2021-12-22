@@ -51,7 +51,7 @@ const Characters = () => {
       <h1> Make your Choice </h1>
 	  <div class='filters'>
 		  
-      <select name="gender" onChange={(e) => handelChange(e.target.value, "gender" )}>
+      <select name="gender" onChange={(e) => setChoice(e.target.value, "gender" )}>
         <option value="default">	&#9893;Gender</option>
         <option value="male"> &#9794;Male</option>
         <option value="female">&#9792;Female</option>
@@ -186,9 +186,10 @@ const Characters = () => {
           )}
         </div>
       </div>
-
+      <Random />
       
     </div>
+    
   );
 };
 
