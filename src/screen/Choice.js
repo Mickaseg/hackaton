@@ -4,7 +4,7 @@ const Choice =() => {
     return (
     <div>
         <Identif />
-        
+
     </div>
     
     )}
