@@ -35,7 +35,17 @@ height: 250px;
 margin: 30px 0px;
 }
 
-.nav-logo {
+.logo {
+  margin-top: 80px;
   width: 170px;
 }
 
+.imggo {
+  height: 100px;
+  margin-top : 150px; 
+  
+}
+
+.nav-logo{
+  display: none; 
+}

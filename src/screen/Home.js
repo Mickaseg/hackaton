@@ -1,14 +1,19 @@
 import "./Home.css"
+import go from "../Assets/go.png";
 import logo from "../Assets/new_logo.png";
 import Square from "../components/Square";
+import Square2 from "../components/Square2";
 
 const Home =() => {
     return  <div className="homePAGE"> 
-            <img src={logo} alt="logo" className="nav-logo" />
+            
+            <img src={logo} alt="logo" className="logo" />
             <h1 className="homeTitle"> THE INTERGALACTIC DATING </h1>
             <Square /> 
-            <div className="homearticle1"></div>
-            <h2>Top 3 hottest products</h2>
+            <img src={go} alt="go" className="imggo"/>
+            <Square2 />
+
+       
         </div>
     
     }

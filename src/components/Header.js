@@ -7,9 +7,9 @@ const Header = () => {
     return(
     <div className="navbar">
 
-            {/* <NavLink to="/" className="navbar-logo">
+            { <NavLink to="/" className="navbar-logo">
               <img src={logo} alt="logo" className="nav-logo" />
-            </NavLink> */}
+            </NavLink>}
 
 
         <ul>

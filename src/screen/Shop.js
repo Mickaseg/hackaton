@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import Card from "../components/Card"
+import logo from "../Assets/new_logo.png";
 import Random from "../components/Random"
 
 import "./Shop.css";
@@ -30,7 +31,8 @@ const Characters = () => {
   console.log(choiceEyeColor);
 
   return (
-    <div>
+    <div className= "shopshop">
+      <img src={logo} alt="logo" className="logo logoshop" />
       <h1> Make your Choice </h1>
 
       <select name="gender" onChange={(e) => setChoice(e.target.value)}>
