@@ -5,7 +5,7 @@ const Card = ({ name, image, id }) => {
 	const idCharacter = `/characters/${id}`
 	return (
 		<div className="Card" key={id}>
-			<Link to={idCharacter} >
+			<Link className="linkCard" to={idCharacter} >
 			<p className="CardTitle">{name}</p>
 			<img className="CardImg" src={image} alt={name} />
 			</Link>

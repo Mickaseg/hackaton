@@ -23,7 +23,7 @@ const Header = () => {
             <NavLink to="/Shop" className="">
                 <li className="navbar-shop">Shop</li> 
             </NavLink>
-            <NavLink to="/Choice" className="">
+            <NavLink to="/characters/:id" className="">
                 <li className="navbar-choice">Enjoy</li> 
             </NavLink>
         </ul>
