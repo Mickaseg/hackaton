@@ -22,7 +22,7 @@ const Random = () => {
 
 	return (
 			<div className="GaleryCharacters random">
-				<h2>Let destiny make for you</h2>
+				<h2>Let destiny choose for you</h2>
 				<div><Arrow /></div>
                 <button onClick={()=> setNumber(Math.floor(Math.random() * 87))}>Click Here!</button>
 				<div>

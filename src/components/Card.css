@@ -8,7 +8,11 @@
 	margin-left:60px;
 	margin-bottom: 30px;
 	box-shadow: 1px 1px 1px 1px grey;
-	background-color: #660075;
+	 
+}
+.CardTitle {
+	background-color: blueviolet;
+	
 }
 
 .Card:hover{
@@ -21,8 +25,14 @@
 }
 .CardImg {
 	object-fit: contain;
-	max-height: 340px;
+	
 	height: 100% ;
 	width: 100% ;
 }
 
+a {
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
