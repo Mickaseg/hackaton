@@ -1,6 +1,6 @@
 import './Identif.css'
 
-const Identif = () => {
+const Identif = (props) => {
 return <div className="main"> 
 <div className="identifIntro">
   <h1>Did you find someone you wanna play with ?
