@@ -1,7 +1,9 @@
 import './Identif.css'
+import bande from '../Assets/photopeople.png';
 
 const Identif = () => {
-return <div className="main"> 
+return <div className="main">
+
 <div className="identifIntro">
   <h1>Did you find someone you wanna play with ?
     <p><span id="lightText">Don't hesitate any longer</span> and catch <span id="lightText">your target!</span></p>
@@ -40,6 +42,8 @@ return <div className="main">
     </a>
   </form>
 </div>
+<img src={bande} alt="bande" className="form-bande" />
+
 </div>
 }
 

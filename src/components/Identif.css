@@ -24,6 +24,17 @@ body {
   margin: 50px 0;
 }
 
+.form-bande {
+  width: 100%;
+  height: auto;
+  filter : contrast(110%);
+  margin-top: 60px;
+  border-top: 3px solid #b94db2;
+  border-bottom: 3px solid #b94db2;
+
+
+}
+
 #registrationTitle {
   text-shadow: #fff 1px 0 10px;
   color: #fff;
