@@ -1,8 +1,7 @@
 .footer {
     margin-top: 50px;
     padding: 1rem;
-    background-color: #660075;
-    position: relative;
+    background: linear-gradient(180deg, rgba(243,165,255,0) 0%, rgba(17,4,19,0.639093137254902) 24%, rgba(17,4,19,1) 58%);
     bottom: 0;
     left: 0;
     width: 100%;
