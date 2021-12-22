@@ -7,8 +7,8 @@ const Home =() => {
             <img src={logo} alt="logo" className="nav-logo" />
             <h1 className="homeTitle"> THE INTERGALACTIC DATING </h1>
             <Square /> 
-            <div className="homearticle1"></div>
-            <h2>Top 3 hottest products</h2>
+            <div className="homearticle1"><h2>Top 3 hottest products</h2></div>
+            
         </div>
     
     }

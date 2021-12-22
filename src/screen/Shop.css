@@ -6,6 +6,7 @@
 }
 
 .GaleryCharacters{
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -36,4 +37,7 @@ select {
     font-size: 20px;
     letter-spacing: 5px;   
 }
- 
+
+.GaleryCharacters.random {
+    margin-top: 200px;
+}
